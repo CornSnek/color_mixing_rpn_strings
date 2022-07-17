@@ -175,7 +175,7 @@ bool ColorSprite::draw_to_window(sf::RenderWindow& rw,Camera& cam,RPNContainer& 
             last_with_text=&text;
             show_rpns=false;
         }
-        if(last_with_text!=&text) text.setString(std::to_string(v_len)+" "+MixNamesCapitals[strlen(rpn_v->at(0))/2+1]);
+        if(last_with_text!=&text) text.setString(std::to_string(v_len)+" "+MixNamesCapitals[strlen(rpn_v->at(0))/2+1]+"\n"+rpn_v->at(0));
         RPNContainer::rw_mutex.unlock();
         triangle.setOutlineThickness(((v_len-1)?1.0:0.0f)*powf(1.13f,v_len));
         text.setFillColor(sf::Color(bry_color_trans|0xff));
