@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/include/color_mixing_glowbe"
+      ],
+      "compilerArgs": [
+        "-g", "-Wall", "-Wextra", "-pedantic", "-std=c++20"
+      ],
+      "defines": ["SFML_STATIC"],
+      "compilerPath": "/usr/bin/g++",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
