@@ -29,3 +29,9 @@ Example: If a triangle is only Tertiary, it will not add
 any higher combinations of Quaternary, Quinary, Senary... etc. strings.
 This program was made using SFML 2.5.1 and C++20 in Visual Studio Code (on Arch Linux).
 Font used: Kenney Pixel.ttf by Kenney https://www.kenney.nl/"
+
+# Images
+Program creating the triangle and parsing strings. It creates creates a triangle similar to a Sierpiński triangle when using midpoints to combine colors only using Blue, Yellow, Red, and mixtures of Blue/Yellow/Red only.
+![](assets/RPNTriangle.png)
+Click on a rotated triangle to see more information. Such as the its Blue Red Yellow vector (Components sum up to 1) and its RPN or Infix notation on how to mix to get this vector. Some triangles can have more than one combination, where they point to the same Blue Red Yellow vector.
+![](assets/RPNTriangle2.png)
